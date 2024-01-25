@@ -1,10 +1,11 @@
 ---
-title: "Corrrelation Between Location and Building Evaluation Score"
+title: "Corrrelation Between Location and Building Evaluation Score^[Code and data supporting this analysis is available at: https://github.com/anggimude/Correlation-Between-Location-and-Building-Evalualtion-Score.git]"
 author: "Hyuk Jang"
 date: Jan 23, 2024
 abstract: This paper analyzes the correlation between location of apartment buildings in Toronto and its evaluation score. This will help us analyze some safer and cleaner neighberhoods and what may be the reason why such correlation occurs. 
 format: pdf
 editor: visual
+bibliography: reference.bib
 ---
 
 ```{r}
@@ -25,6 +26,7 @@ clean_evaluation_data = read_csv(
   file = here("input/data/clean_evaluation_data.csv"),
   show_col_types = FALSE
 )
+
 ```
 
 # 1 Introduction

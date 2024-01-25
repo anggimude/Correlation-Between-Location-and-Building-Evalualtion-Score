@@ -33,6 +33,5 @@ data
 #### Save data ####
 Pre_2023_Apartment_Building_Evaluations <- as_tibble(data)
 # change the_raw_data to whatever name you assigned when you downloaded it.
-write_csv(Pre_2023_Apartment_Building_Evaluations, "inputs/data/Pre_2023_Apartment_Building_Evaluations.csv")
-
+write_csv(Pre_2023_Apartment_Building_Evaluations, "Pre_2023_Apartment_Building_Evaluation.csv")
 

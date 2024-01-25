@@ -31,5 +31,5 @@ clean_evaluation_data |>
   )
 
 #### Save data ####
-write_csv(clean_evaluation_data, "inputs/data/clean_evaluation_data.csv")
+write_csv(clean_evaluation_data, "input/data/clean_evaluation_data.csv")
 
